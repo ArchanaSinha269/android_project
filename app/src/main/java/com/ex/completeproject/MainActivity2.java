@@ -22,7 +22,6 @@ public class MainActivity2 extends AppCompatActivity {
     TextView textview;
     Button button;
 
-    // Pre-loaded Python objects
     Python py;
     PyObject pyObj;
 
