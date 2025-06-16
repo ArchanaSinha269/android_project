@@ -80,7 +80,7 @@ public class MainActivity2 extends AppCompatActivity {
                     double phVal = Double.parseDouble(phStr);
                     double rain = Double.parseDouble(rainStr);
 
-                    // Python prediction in background
+
                     new Thread(() -> {
                         try {
                             PyObject result = pyObj.callAttr("recommendation", n, p, k, temp, hum, phVal, rain);
