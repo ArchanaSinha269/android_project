@@ -12,7 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.button.MaterialButton;
 
 public class MainActivity extends AppCompatActivity {
-    // Define a TAG for logging, good practice
+
     private static final String TAG = "MainActivity";
 
     @Override
